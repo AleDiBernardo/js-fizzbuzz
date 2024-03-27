@@ -6,20 +6,22 @@ for (let i = 0; i <= 100; i++) {
 
   //Console
   if (i % 3 === 0 && i % 5 === 0) {
-    squareElem.innerHTML = "BoolBuzz";
+    squareElem.innerHTML = ` <h3>BoolBuzz</h3>`;
     squareElem.classList.add("fizzbuzz");
 
     // debug
     console.log("FizzBuzz");
+
   } else if (i % 3 === 0) {
-    squareElem.innerHTML = "Bool";
+    squareElem.innerHTML = ` <h3>Bool</h3>`;
     squareElem.classList.add("fizz");
 
 
     // debug
     console.log("Fizz");
+    
   } else if (i % 5 === 0) {
-    squareElem.innerHTML = "Buzz";
+    squareElem.innerHTML = ` <h3>Buzz</h3>`;
     squareElem.classList.add("buzz");
 
 
