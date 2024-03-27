@@ -11,9 +11,9 @@
 
 ## Bonus
 
-- [ ] Crea un container nel DOM , aggiungendo un elemento html con il numero o la stringa corretta da mostrare.
+- [x] Crea un container nel DOM , aggiungendo un elemento html con il numero o la stringa corretta da mostrare.
 
-- [ ] Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
+- [x] Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 
 # Soluzione 
 
@@ -29,6 +29,6 @@
         stampa il numero
 
 ## HTML e CSS
-- [ ] creare un container dove poter aggiugere gli elementi con il numero o la stringa corretta
+- [x] creare un container dove poter aggiugere gli elementi con il numero o la stringa corretta
 
-- [ ] aggiungere del css
+- [x] aggiungere del css
