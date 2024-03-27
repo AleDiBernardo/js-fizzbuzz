@@ -24,7 +24,7 @@ for (let i = 0; i <= 107; i++) {
     // debug
     console.log("Buzz");
   } else {
-    squareElem.innerHTML = i;
+    squareElem.innerHTML = "👩‍💻";
 
     // debug
     console.log(i);
