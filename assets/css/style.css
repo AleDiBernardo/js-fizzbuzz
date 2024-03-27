@@ -5,11 +5,10 @@
   box-sizing: border-box;
 }
 
-
 /* COMMON */
 
 body {
-  background-color: lightslategray;
+  background-color: darkblue;
   color: white;
 }
 
