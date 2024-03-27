@@ -18,13 +18,15 @@
 # Soluzione 
 
 ## JavaScript
-- [ ] Implementazione ciclo for che itera da 1 a 100
+- [x] Implementazione ciclo for che itera da 1 a 100
     - Se i % 3 è uguale a 0
         stampa Fizz
     - Altrimenti se ( i % 3 è uguale a 0 AND i % 5 è uguale a 0)
         stampa FizzBuzz
-    - Altrimenti
+    - Altrimenti se (i % 5 è uguale a 0)
         stampa Buzz
+    - Altrimenti
+        stampa il numero
 
 ## HTML e CSS
 - [ ] creare un container dove poter aggiugere gli elementi con il numero o la stringa corretta
