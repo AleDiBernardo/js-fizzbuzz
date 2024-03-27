@@ -1,3 +1,59 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* COMMON */
+
 body {
-    background-color: red;
+  background-color: lightslategray;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* SQUARE */
+.square {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+
+  /* debug */
+  background-color: lightseagreen;
+}
+
+/* UTILITIES */
+
+.fizz {
+  background-color: lightcoral;
+}
+
+.buzz {
+  background-color: lightblue;
+}
+
+.fizzbuzz {
+  background-color: lightgreen;
 }
